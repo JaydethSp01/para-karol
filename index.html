@@ -257,19 +257,6 @@
   .sec{max-width:920px;margin:120px auto 0;position:relative;z-index:10}
   .v-head h3{padding:0 .15em .08em}
 
-  /* flores que se voltean */
-  .loves{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  @media(min-width:700px){.loves{grid-template-columns:repeat(3,1fr);gap:18px}}
-  .lv{position:relative;aspect-ratio:4/5;perspective:900px;border:0;background:none;padding:0;cursor:pointer;font:inherit;color:inherit}
-  .lv-in{position:absolute;inset:0;display:block;transition:transform .85s cubic-bezier(.3,.9,.3,1);transform-style:preserve-3d}
-  .lv.on .lv-in{transform:rotateY(180deg)}
-  .lv-f,.lv-b{position:absolute;inset:0;border-radius:16px;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;text-align:center}
-  .lv-f{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(217,126,147,.1));border:1px solid rgba(217,164,65,.34);box-shadow:0 14px 30px rgba(0,0,0,.35)}
-  .lv-f svg{width:58%;height:auto;overflow:visible;animation:sway 6s ease-in-out infinite;transform-origin:center bottom}
-  .lv:nth-child(even) .lv-f svg{animation-delay:-3s}
-  .lv-f .t{margin-top:12px;font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:clamp(16px,2.6vw,20px);color:var(--gold-lt)}
-  .lv-b{transform:rotateY(180deg);color:var(--ink);font-family:'Caveat',cursive;font-weight:600;font-size:clamp(21px,3.4vw,27px);line-height:1.25;
-    background:radial-gradient(130% 100% at 50% 0%,#fcf5e6,#f0e0c2);border:1px solid rgba(150,110,60,.4);box-shadow:0 14px 30px rgba(0,0,0,.4),inset 0 0 40px rgba(150,110,60,.14)}
 
   /* ese día */
   .steps{list-style:none;display:flex;flex-direction:column;gap:34px}
@@ -538,21 +525,20 @@
       <div class="dateline">— desde el 15 de octubre de 2026 —</div>
       <div class="flourish"><svg viewBox="0 0 130 22" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M65 11 C55 2 45 2 39 11 C45 20 55 20 65 11 C75 2 85 2 91 11 C85 20 75 20 65 11Z"/><path d="M6 11 H35 M95 11 H124"/><circle cx="65" cy="11" r="2" fill="currentColor" stroke="none"/></svg></div>
       <div class="hand">
-        <p>Mi amor, te voy a ser sincero: yo no soy el mejor escribiendo. Pero hay cosas que, si no las digo, se me quedan atravesadas. Así que aquí voy, a mi manera.</p>
-        <p>Nos conocimos un <span class="ac">15 de octubre</span>. No ha pasado tanto tiempo y ya tengo guardados momentos que sé que no se me van a olvidar: las tardes en tu casa, cuando el tiempo se pasa sin que nos demos cuenta; las salidas a comer; las películas; tus caricias, que tienen la costumbre de dejarme tranquilo.</p>
-        <p>Y ese día… ese día fue espectacular. Comimos, pintamos, nos reímos, vimos película, hicimos de todo. Pero si me preguntas con qué me quedo, me quedo con las miradas. Hubo un momento en que nos miramos y <span class="ac">no hizo falta decir nada</span>.</p>
+        <p>Mi amor, yo no soy el mejor escribiendo, tú sabes. Pero hay cosas que si no te las digo se me quedan atravesadas, así que aquí voy.</p>
+        <p>Nos conocimos un <span class="ac">15 de octubre</span> y mira dónde vamos. No ha pasado tanto y ya tengo un montón de momentos guardados: las noches en tu casa, cuando me quedo durmiendo contigo y no me quiero ir; las salidas a comer; las películas; tus caricias, que me dejan quieto.</p>
+        <p>Y ese día. Comimos, pintamos, vimos película, nos reímos de todo. Pero de lo que más me acuerdo es de cómo nos mirábamos. Fue espectacular, de verdad.</p>
 
         <div class="vine"><span class="l"></span><svg viewBox="-42 -22 84 44"><use href="#leaf" transform="translate(-22 6) rotate(-40) scale(.85)"/><use href="#leaf" transform="translate(22 6) rotate(40) scale(.85)"/><use href="#carn" transform="translate(-15 0) scale(.42)"/><use href="#rose" transform="translate(16 2) scale(.4)"/><use href="#peony" transform="translate(1 -3) scale(.52)"/></svg><span class="l r"></span></div>
 
-        <p>Me gusta todo de ti, y no exagero: tu sonrisa, tu pelo, tu cintura… y esos <span class="ac">ojitos claritos</span> que tienes, tan hermosos, que cuando me miran me desarman. Todo de ti me mata, y cada vez que te veo llegar me vuelvo a quedar sin palabras.</p>
-        <p>Pero lo que más me tiene así no es lo que se ve. Es cómo me haces sentir. Contigo me siento <span class="ac">querido</span>, y eso no me pasa con cualquiera. <span class="ac">Me tienes enamorado</span>, así, sin darme cuenta de en qué momento pasó.</p>
+        <p>A mí me gusta todo de ti. Tu sonrisa, tu pelo, tu cintura, y esos <span class="ac">ojitos claritos</span> tan hermosos que tienes. Tú me miras y a mí se me olvida hasta lo que iba a decir. Todo de ti me mata.</p>
+        <p>Y me haces sentir querido. Yo no sabía que me hacía tanta falta sentirme así hasta que llegaste tú. Mi corazón me dice que <span class="ac">eres tú</span>, que esto era lo que yo estaba buscando, y yo le creo. Nadie me ha hecho sentir como tú.</p>
 
         <div class="vine"><span class="l"></span><svg viewBox="-42 -22 84 44"><use href="#leaf" transform="translate(-22 6) rotate(-40) scale(.85)"/><use href="#leaf" transform="translate(22 6) rotate(40) scale(.85)"/><use href="#bud" transform="translate(0 12) scale(.9)"/></svg><span class="l r"></span></div>
 
-        <p>Ahora quiero decirte algo más serio. Yo sé que la vida te ha tocado duro. No conozco toda tu historia y no te voy a pedir que me la cuentes antes de tiempo, pero sé que lo que has vivido te enseñó a cerrar la puerta y a resolverlo todo tú sola. Y lo entiendo. No lo veo como un defecto: es la forma en que aprendiste a cuidarte.</p>
-        <p>Pero no quiero que tengas que lidiar con todo sola. Hay personas que llegan a la vida de uno para ser apoyo, para ser soporte, y <span class="ac">eso quiero ser yo para ti</span>. No vengo a salvarte, que tú has podido con todo; vengo a acompañarte. A complementarte, a cargar contigo lo que pese y a quedarme callado al lado tuyo cuando no quieras hablar.</p>
-        <p>No tengo afán. No te voy a tumbar la puerta: yo toco suave y espero lo que haga falta. Tú abres cuando quieras y hasta donde quieras. Solo quiero que sepas que, del otro lado, <span class="ac">hay alguien que se queda</span>.</p>
-        <p>Gracias por estas semanas, mi amor, por dejarme estar cerquita y por mirarme así. Quiero muchos días como ese contigo, y quiero que en todos sepas lo mucho que te quiero.</p>
+        <p>Ahora te quiero decir algo más serio. Yo sé que la vida te ha tocado duro. Sé que por lo que has vivido te cuesta dejar entrar a alguien, y que estás acostumbrada a lidiar con todo tú sola. Lo entiendo, y no te voy a presionar con eso.</p>
+        <p>Pero no quiero que sigas cargando con todo sola. Para eso hay personas en la vida de uno, para ser un apoyo, y <span class="ac">eso quiero ser yo para ti</span>. Quiero estar contigo, cuidarte, amarte, protegerte. Quiero complementarte. Que cuando tengas un día malo sepas que me puedes llamar y que yo voy.</p>
+        <p>Nos ha ido muy bien hasta ahora y tengo fe en que nos va a ir mejor. Yo aquí estoy, mi amor, y de aquí no me voy.</p>
       </div>
 
       <div class="sig-block">
@@ -564,22 +550,6 @@
       </div>
     </div>
   </article>
-
-  <section class="sec reveal">
-    <div class="v-head">
-      <div class="v-kicker">lo que me mata de ti</div>
-      <h3>Todo de ti</h3>
-      <div class="v-sub">toca cada flor</div>
-    </div>
-    <div class="loves">
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#peony"/></svg><span class="t">tu sonrisa</span></span><span class="lv-b">Cuando te ríes se me olvida lo que iba a decir.</span></span></button>
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#rose"/></svg><span class="t">tus ojitos</span></span><span class="lv-b">Claritos, hermosos. Me miran y me desarman.</span></span></button>
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#carn" transform="scale(1.5)"/></svg><span class="t">tu pelo</span></span><span class="lv-b">Me encanta enredar mis dedos en él.</span></span></button>
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#rose"/></svg><span class="t">tu cintura</span></span><span class="lv-b">Donde mis manos se quedan sin que yo les diga.</span></span></button>
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#carn" transform="scale(1.5)"/></svg><span class="t">tus caricias</span></span><span class="lv-b">Me dejan tranquilo como nada más.</span></span></button>
-      <button class="lv" type="button"><span class="lv-in"><span class="lv-f"><svg viewBox="-40 -40 80 80"><use href="#peony"/></svg><span class="t">cómo me miras</span></span><span class="lv-b">Me haces sentir querido. Así de simple.</span></span></button>
-    </div>
-  </section>
 
   <section class="timecount reveal">
     <div class="tc-title">Desde que te conocí</div>
@@ -844,8 +814,6 @@ document.addEventListener('pointerdown',e=>{
   window.puffPetals(e.clientX,e.clientY,5);
 },{passive:true});
 
-/* ---------- flores que se voltean ---------- */
-document.querySelectorAll('.lv').forEach(b=>b.addEventListener('click',()=>b.classList.toggle('on')));
 
 /* ---------- la flor que se abre cuando ella quiera ---------- */
 (function(){
